@@ -123,15 +123,15 @@ export const mockData = {
         {
           "id": "minio1",
           "name": "MinIO1",
-          "url": "https://minio1.skyrisai.com",
-          "description": "对象存储节点1",
+          "url": "http://minio1.skyrisai.com",
+          "description": "7对象存储节点1",
           "icon": "https://min-io.cn/resources/img/logo.svg"
         },
         {
           "id": "minio2",
           "name": "MinIO2",
-          "url": "https://minio2.skyrisai.com",
-          "description": "对象存储节点2",
+          "url": "http://minio2.skyrisai.com",
+          "description": "5对象存储节点2",
           "icon": "https://min-io.cn/resources/img/logo.svg"
         },
         {
