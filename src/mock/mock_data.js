@@ -69,6 +69,13 @@ export const mockData = {
           "url": "http://obsidian-kbsite-88c401.pages.skyrisai.com",
           "description": "obsidian知识库",
           "icon": "https://obsidian.md/images/obsidian-logo-gradient.svg"
+        },
+        {
+          "id": "site-1778472124112",
+          "name": "内网禅道",
+          "url": "http://zentaoint.skyrisai.com:28080/zentao/my.html",
+          "description": "",
+          "icon": " https://zentao.skyrisai.com:8080/zentao/favicon.ico"
         }
       ]
     },
