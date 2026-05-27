@@ -76,6 +76,13 @@ export const mockData = {
           "url": "http://zentaoint.skyrisai.com:28080/zentao/my.html",
           "description": "",
           "icon": " https://zentao.skyrisai.com:8080/zentao/favicon.ico"
+        },
+        {
+          "id": "site-1779853295401",
+          "name": "drawAI",
+          "url": "http://draw.skyrisai.com",
+          "description": "ai画图工具",
+          "icon": ""
         }
       ]
     },
