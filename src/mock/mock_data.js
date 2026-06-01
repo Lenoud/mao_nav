@@ -154,6 +154,13 @@ export const mockData = {
           "url": "https://router.skyrisai.com",
           "description": "路由器",
           "icon": " https://downloads.immortalwrt.org/favicon.ico"
+        },
+        {
+          "id": "site-1780293828024",
+          "name": "GitReviewManager",
+          "url": "http://review.skyrisai.com",
+          "description": "gitlab代码审阅管理平台",
+          "icon": ""
         }
       ]
     },
