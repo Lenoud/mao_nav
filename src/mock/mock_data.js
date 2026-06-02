@@ -161,6 +161,13 @@ export const mockData = {
           "url": "https://router.skyrisai.com",
           "description": "路由器",
           "icon": " https://downloads.immortalwrt.org/favicon.ico"
+        },
+        {
+          "id": "site-1780371147069",
+          "name": "Portainer",
+          "url": "https://docker.skyrisai.com",
+          "description": "docker管理面板",
+          "icon": ""
         }
       ]
     },
