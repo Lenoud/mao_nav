@@ -168,6 +168,13 @@ export const mockData = {
           "url": "https://docker.skyrisai.com",
           "description": "docker管理面板",
           "icon": ""
+        },
+        {
+          "id": "site-1780372800143",
+          "name": "sub2api",
+          "url": "https://sub2api.skyrisai.com",
+          "description": "统一api管理",
+          "icon": ""
         }
       ]
     },
