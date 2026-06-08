@@ -175,6 +175,13 @@ export const mockData = {
           "url": "https://sub2api.skyrisai.com",
           "description": "统一api管理",
           "icon": ""
+        },
+        {
+          "id": "site-1780891195573",
+          "name": "内网sub2api用量仪表盘",
+          "url": "http://sub2api-dash.skyrisai.com/",
+          "description": "",
+          "icon": ""
         }
       ]
     },
