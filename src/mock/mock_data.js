@@ -100,20 +100,6 @@ export const mockData = {
       "order": 2,
       "sites": [
         {
-          "id": "kuboard",
-          "name": "Kuboard",
-          "url": "https://kuboard.skyrisai.com",
-          "description": "Kubernetes管理面板",
-          "icon": "☸️"
-        },
-        {
-          "id": "nezha",
-          "name": "哪吒监控",
-          "url": "http://nezha.skyrisai.com:8008",
-          "description": "服务器状态监控",
-          "icon": "📡"
-        },
-        {
           "id": "pve1",
           "name": "PVE1",
           "url": "https://pve1.skyrisai.com",
@@ -137,14 +123,14 @@ export const mockData = {
         {
           "id": "minio1",
           "name": "MinIO1",
-          "url": "http://minio1.skyrisai.com",
+          "url": "https://minio1.skyrisai.com",
           "description": "7对象存储节点1",
           "icon": "https://min-io.cn/resources/img/logo.svg"
         },
         {
           "id": "minio2",
           "name": "MinIO2",
-          "url": "http://minio2.skyrisai.com",
+          "url": "https://minio2.skyrisai.com",
           "description": "5对象存储节点2",
           "icon": "https://min-io.cn/resources/img/logo.svg"
         },
@@ -186,34 +172,11 @@ export const mockData = {
       ]
     },
     {
-      "id": "workspace",
-      "name": "工作空间",
-      "icon": "🏢",
-      "order": 4,
-      "sites": [
-        {
-          "id": "bobo-ws",
-          "name": "远程工作空间",
-          "url": "",
-          "description": "云端开发环境",
-          "icon": "☁️"
-        }
-      ]
-    },
-    {
       "id": "category-1774850620561",
       "icon": "🌐",
       "name": "VPN中的服务",
       "order": 0,
-      "sites": [
-        {
-          "id": "site-1774850681572",
-          "name": "IndexTTS2 - 情感可控的零样本语音合成",
-          "url": "http://10.20.0.2:7870/",
-          "description": "algo服务器中的语音合成系统",
-          "icon": ""
-        }
-      ]
+      "sites": []
     }
   ],
   "title": "Skyris 内部导航",
