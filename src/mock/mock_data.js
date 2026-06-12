@@ -168,6 +168,13 @@ export const mockData = {
           "url": "http://sub2api-dash.skyrisai.com/",
           "description": "",
           "icon": ""
+        },
+        {
+          "id": "site-1781262232357",
+          "name": "hookhub",
+          "url": "https://webhook-xnldrpuk-1.skyrisai.com/admin",
+          "description": "hook管理",
+          "icon": ""
         }
       ]
     },
