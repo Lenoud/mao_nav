@@ -175,6 +175,13 @@ export const mockData = {
           "url": "https://webhook-xnldrpuk-1.skyrisai.com/admin",
           "description": "hook管理",
           "icon": ""
+        },
+        {
+          "id": "site-1781779691077",
+          "name": "alist网盘",
+          "url": "https://alist.skyrisai.com/",
+          "description": "",
+          "icon": ""
         }
       ]
     },
