@@ -97,6 +97,13 @@ export const mockData = {
           "url": "https://agetnrq.skyrisai.com/",
           "description": "",
           "icon": ""
+        },
+        {
+          "id": "site-1782797592964",
+          "name": "gptimage",
+          "url": "https://gptimage.skyrisai.com/",
+          "description": "",
+          "icon": ""
         }
       ]
     },
