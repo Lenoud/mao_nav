@@ -90,6 +90,13 @@ export const mockData = {
           "url": "http://review.skyrisai.com",
           "description": "gitlab代码审阅管理平台",
           "icon": ""
+        },
+        {
+          "id": "site-1782797562316",
+          "name": "agetnrq",
+          "url": "https://agetnrq.skyrisai.com/",
+          "description": "",
+          "icon": ""
         }
       ]
     },
