@@ -196,6 +196,13 @@ export const mockData = {
           "url": "https://alist.skyrisai.com/",
           "description": "",
           "icon": ""
+        },
+        {
+          "id": "site-1783409342552",
+          "name": "vpn-dashboard",
+          "url": "https://vpn-hp.skyrisai.com/",
+          "description": "",
+          "icon": ""
         }
       ]
     },
@@ -265,6 +272,13 @@ export const mockData = {
           "id": "site-1783408693771",
           "name": "drawAI",
           "url": "https://draw.skyrisai.com",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "id": "site-1783409397701",
+          "name": "vpn-hp",
+          "url": "https://vpn-hp.skyrisai.com/",
           "description": "",
           "icon": ""
         }
