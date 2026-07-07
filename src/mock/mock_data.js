@@ -239,6 +239,34 @@ export const mockData = {
           "url": "https://alist.skyrisai.com",
           "description": "",
           "icon": ""
+        },
+        {
+          "id": "site-1783408649984",
+          "name": "router",
+          "url": "https://router.skyrisai.com",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "id": "site-1783408666670",
+          "name": "pve",
+          "url": "https://pve1.skyrisai.com",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "id": "site-1783408678991",
+          "name": "gptimage",
+          "url": "https://gptimage.skyrisai.com",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "id": "site-1783408693771",
+          "name": "drawAI",
+          "url": "https://draw.skyrisai.com",
+          "description": "",
+          "icon": ""
         }
       ]
     }
