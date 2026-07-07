@@ -204,7 +204,43 @@ export const mockData = {
       "icon": "🌐",
       "name": "VPN中的服务",
       "order": 0,
-      "sites": []
+      "sites": [
+        {
+          "id": "site-1783408572305",
+          "name": "harbor",
+          "url": "https://harbor.skyrisai.com",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "id": "site-1783408590016",
+          "name": "sub2api",
+          "url": "https://sub2api.skyrisai.com",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "id": "site-1783408604280",
+          "name": "sub2api-dash",
+          "url": "https://sub2api-dash.skyrisai.com",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "id": "site-1783408620232",
+          "name": "hookhub",
+          "url": "https://webhook-xnldrpuk-1.skyrisai.com",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "id": "site-1783408630641",
+          "name": "alist",
+          "url": "https://alist.skyrisai.com",
+          "description": "",
+          "icon": ""
+        }
+      ]
     }
   ],
   "title": "Skyris 内部导航",
