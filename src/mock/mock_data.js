@@ -16,7 +16,7 @@ export const mockData = {
         {
           "id": "recruit",
           "name": "招聘系统",
-          "url": "https://zentao.skyrisai.com:8098/",
+          "url": "https://resume.skyrisai.com:34652/",
           "description": "内部招聘管理",
           "icon": "📋"
         },
