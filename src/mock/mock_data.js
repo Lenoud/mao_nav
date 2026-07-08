@@ -50,13 +50,6 @@ export const mockData = {
           "icon": "https://goharbor.io/favicon.svg"
         },
         {
-          "id": "skyris-ota",
-          "name": "OTA服务",
-          "url": "https://skyris.ota.com",
-          "description": "OTA更新服务",
-          "icon": "📲"
-        },
-        {
           "id": "site-1773385457319",
           "name": "禅道",
           "url": "https://zentao.skyrisai.com:8080/zentao",
@@ -279,6 +272,13 @@ export const mockData = {
           "id": "site-1783409397701",
           "name": "vpn-hp",
           "url": "https://vpn-hp.skyrisai.com/",
+          "description": "",
+          "icon": ""
+        },
+        {
+          "id": "site-1783509377692",
+          "name": "gitlab",
+          "url": "https://git.skyrisai.com",
           "description": "",
           "icon": ""
         }
