@@ -196,6 +196,27 @@ export const mockData = {
           "url": "https://vpn-hp.skyrisai.com/",
           "description": "",
           "icon": ""
+        },
+        {
+          "id": "site-1784093853127",
+          "name": "grafana",
+          "url": "https://grafana.skyrisai.com",
+          "description": "告警仪表盘",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACHUlEQVR4AX3MM6BtVxRA0bHOuc+xXcW2bdtV2MW2bdu2bdu2bTxe7BWj+sUo5wwAAPh58zkAFsJ5OBenwYRXvA4AYhzxZDgDG+FD7IYXMD2+wPsQvwdQYQUsiRbGsCHmQxdgDN9jUpyBXf4/6MNtWB4ALTyN+/EJ+rEIVsNL2Ag//jVIIZyPLQHDOBKn4SfQ4XeVbgvjKNyj6Yi/Bt1IawtXCX2Kc4zZXp+mbtNIy0iTCm9FwxP5ixk0HPK7/QJ+2X5OWFS6Bx3FqmpP/25uxRk6pkUIk6jco7aLMYuptePX/ecQPVmXwWoP6Qg8r1gxBnIwR+NCHR1th6CltsnvDhRuUeyrmDwGj5mrzrHcWXEAxseDWE2YQLpcsYvwmnbS0dATZwmbCCtF7akYPH7OpRXXYgrAG6pcIZvxazScp8qTZTylTtoBO+BkbIarYvCkOWZSO0lYGQ00VbbVdom0stpav3tSejV/Kq/GhNVJ0o7CmdETO8XQWXMiJ1HFampbCivgnaht0xkeezRK99QRMXm288NqwpgzO67CDPgEawaM3DSXHCwws9oNmEP4LCoXqzwgDCoW0rF9ppmkK3VcliUeCYCRW+eEbsWNWB0ATbTQh5Au1c6dhR/6NnhdAIzePTt0q9yAVaWXpU+F6YTpMQW+lFbEG6bq1jv3S/8bPDQbTfRYCZNJj4ryjRIDqlhYlcfhZe3YSqXZu8yb4Dc5M9T5Lt4jkAAAAABJRU5ErkJggg=="
+        },
+        {
+          "id": "site-1784094238980",
+          "name": "alertmanager",
+          "url": "https://alertmanager.skyrisai.com",
+          "description": "告警通知服务",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACT0lEQVQ4jX3TTWhcBRQF4O++N5nJm0ksSSz1ryKiRUgacNGqKIoWxIo7lUoFQXChiy4aLCgiggur4kJRgqAgYv1ZacFdQRcWxIKKFQoq1eIPFoRWjWnSmcx710XHEkG8qwP3nnPvgXPDf9Sfu2f/gdvwOl7DK7DhnWP/mo3/IV+IRdyLE3gUX2IzfsX3ECNCgR24CWvo4x5ci7GRYB+nMDMSXoDWqNnBY7ht3TFrOIKP8BO6uA47MY8p/H5OIJ0VflxHXsH+ke8/QI3aorbteBaPGHimNdqf0kHhPqHSOKDveZWBtkukW6QZ4Zto+TSXPKzlaV1bApb2zMH10iHUGncoHVGa11hUuxQhTCscUlrQd4PSsPXXk7Oi05TNcnGrNIkvNL6NXrbybOxTO27oAawp7VJ6SthvzBMaG1sxWZTZz71ReXzkfwmrIqaiskljQfjBMKm9qBPXCLuEl6P0WaHMG2PcvuiajC7RtSkmcsqYleg6FRfkREwQM8R0DKPn6+iaiMoV2hTKPGk8P1flUJVUeZXK7dHLM9r5ho779XK3jq25VtPNK1VJN2+OKe048+occloRO5UeFHbguyg9VK/0D0fTvjgiNuYwTxQbYi5r7+HyUTbuClg9uFUuN7BF6X3MCr9E4U2Fj4VljW1qezJdLb2rdiCb+OT8L6x+OAdtjQ9w57pQDUaprBDSW4a5Vzhd3X3sfJRFuzkHColaOir9LFwmbEYPJ6XncNpFbet/gU4yMND2Et6WDovmN030FLFdkS/gqGEcVzA+/xX4G+Rnx8fDF+tXAAAAAElFTkSuQmCC"
+        },
+        {
+          "id": "site-1784093914556",
+          "name": "prometheus",
+          "url": "https://prometheus.skyrisai.com",
+          "description": "监控时序数据库",
+          "icon": "https://prometheus.io/_next/static/media/prometheus-logo.7aa022e5.svg"
         }
       ]
     },
