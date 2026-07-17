@@ -30,7 +30,7 @@ export const mockData = {
         {
           "id": "site-1784279256005",
           "name": "SSO系统",
-          "url": "https://sso.skyrisai.com",
+          "url": "https://sso.skyrisai.com/login/skyris",
           "description": "单点登录系统",
           "icon": "https://framerusercontent.com/images/YVLNtOnoSnSoWE03O8mEd6q8.png?scale-down-to=512&width=1181&height=196"
         }
