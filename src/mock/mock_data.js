@@ -75,21 +75,21 @@ export const mockData = {
           "name": "drawAI",
           "url": "http://draw.skyrisai.com",
           "description": "ai画图工具",
-          "icon": "https://api.iconify.design/mdi/palette.svg"
+          "icon": "https://draw.skyrisai.com/favicon.ico"
         },
         {
           "id": "site-1780293828024",
           "name": "GitReviewManager",
           "url": "http://review.skyrisai.com",
           "description": "gitlab代码审阅管理平台",
-          "icon": "https://api.iconify.design/mdi/source-pull.svg"
+          "icon": "https://review.skyrisai.com/favicon.ico"
         },
         {
           "id": "site-1782797592964",
           "name": "gptimage",
           "url": "https://gptimage.skyrisai.com/",
           "description": "AI 图像生成工具",
-          "icon": "https://api.iconify.design/mdi/image-edit.svg"
+          "icon": "https://gptimage.skyrisai.com/pwa-icon.svg"
         }
       ]
     },
@@ -153,42 +153,42 @@ export const mockData = {
           "name": "Portainer",
           "url": "https://docker.skyrisai.com",
           "description": "docker管理面板",
-          "icon": "https://api.iconify.design/simple-icons/portainer.svg"
+          "icon": "https://api.iconify.design/simple-icons/portainer.svg?color=%2313BEF9"
         },
         {
           "id": "site-1780372800143",
           "name": "sub2api",
           "url": "https://sub2api.skyrisai.com",
           "description": "统一api管理",
-          "icon": "https://api.iconify.design/mdi/api.svg"
+          "icon": "https://sub2api.skyrisai.com/logo.png"
         },
         {
           "id": "site-1780891195573",
           "name": "内网sub2api用量仪表盘",
           "url": "http://sub2api-dash.skyrisai.com/",
           "description": "sub2api 用量仪表盘",
-          "icon": "https://api.iconify.design/mdi/chart-line.svg"
+          "icon": "https://api.iconify.design/mdi/chart-line.svg?color=%23F59E0B"
         },
         {
           "id": "site-1781262232357",
           "name": "hookhub",
           "url": "https://webhook-xnldrpuk-1.skyrisai.com/admin",
           "description": "hook管理",
-          "icon": "https://api.iconify.design/mdi/webhook.svg"
+          "icon": "https://api.iconify.design/mdi/webhook.svg?color=%23E11D48"
         },
         {
           "id": "site-1781779691077",
           "name": "alist网盘",
           "url": "https://alist.skyrisai.com/",
           "description": "网盘文件管理",
-          "icon": "https://api.iconify.design/mdi/folder-network.svg"
+          "icon": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"
         },
         {
           "id": "site-1783409342552",
           "name": "vpn-dashboard",
           "url": "https://vpn-hp.skyrisai.com/",
           "description": "VPN 服务状态面板",
-          "icon": "https://api.iconify.design/mdi/vpn.svg"
+          "icon": "https://api.iconify.design/mdi/vpn.svg?color=%2314B8A6"
         },
         {
           "id": "site-1784093853127",
@@ -224,77 +224,77 @@ export const mockData = {
           "name": "harbor",
           "url": "https://harbor.skyrisai.com",
           "description": "容器镜像仓库",
-          "icon": "https://api.iconify.design/simple-icons/harbor.svg"
+          "icon": "https://harbor.skyrisai.com/favicon.ico?v=2"
         },
         {
           "id": "site-1783408590016",
           "name": "sub2api",
           "url": "https://sub2api.skyrisai.com",
           "description": "统一 API 管理",
-          "icon": "https://api.iconify.design/mdi/api.svg"
+          "icon": "https://sub2api.skyrisai.com/logo.png"
         },
         {
           "id": "site-1783408604280",
           "name": "sub2api-dash",
           "url": "https://sub2api-dash.skyrisai.com",
           "description": "sub2api 用量仪表盘",
-          "icon": "https://api.iconify.design/mdi/chart-line.svg"
+          "icon": "https://api.iconify.design/mdi/chart-line.svg?color=%23F59E0B"
         },
         {
           "id": "site-1783408620232",
           "name": "hookhub",
           "url": "https://webhook-xnldrpuk-1.skyrisai.com",
           "description": "Webhook 管理平台",
-          "icon": "https://api.iconify.design/mdi/webhook.svg"
+          "icon": "https://api.iconify.design/mdi/webhook.svg?color=%23E11D48"
         },
         {
           "id": "site-1783408630641",
           "name": "alist",
           "url": "https://alist.skyrisai.com",
           "description": "网盘文件管理",
-          "icon": "https://api.iconify.design/mdi/folder-network.svg"
+          "icon": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"
         },
         {
           "id": "site-1783408649984",
           "name": "router",
           "url": "https://router.skyrisai.com",
           "description": "路由管理系统",
-          "icon": "https://api.iconify.design/mdi/router-network.svg"
+          "icon": "https://downloads.immortalwrt.org/favicon.ico"
         },
         {
           "id": "site-1783408666670",
           "name": "pve",
           "url": "https://pve1.skyrisai.com",
           "description": "Proxmox 虚拟化平台",
-          "icon": "https://api.iconify.design/simple-icons/proxmox.svg"
+          "icon": "https://pve1.skyrisai.com/favicon.ico"
         },
         {
           "id": "site-1783408678991",
           "name": "gptimage",
           "url": "https://gptimage.skyrisai.com",
           "description": "AI 图像生成工具",
-          "icon": "https://api.iconify.design/mdi/image-edit.svg"
+          "icon": "https://gptimage.skyrisai.com/pwa-icon.svg"
         },
         {
           "id": "site-1783408693771",
           "name": "drawAI",
           "url": "https://draw.skyrisai.com",
           "description": "AI 绘图工具",
-          "icon": "https://api.iconify.design/mdi/palette.svg"
+          "icon": "https://draw.skyrisai.com/favicon.ico"
         },
         {
           "id": "site-1783409397701",
           "name": "vpn-hp",
           "url": "https://vpn-hp.skyrisai.com/",
           "description": "VPN 服务状态面板",
-          "icon": "https://api.iconify.design/mdi/vpn.svg"
+          "icon": "https://api.iconify.design/mdi/vpn.svg?color=%2314B8A6"
         },
         {
           "id": "site-1783509377692",
           "name": "gitlab",
           "url": "https://git.skyrisai.com",
           "description": "代码托管平台",
-          "icon": "https://api.iconify.design/simple-icons/gitlab.svg"
+          "icon": "https://git.skyrisai.com/favicon.ico"
         }
       ]
     }
