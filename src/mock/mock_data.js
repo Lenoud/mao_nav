@@ -15,8 +15,8 @@ export const mockData = {
         },
         {
           "id": "recruit",
-          "name": "招聘系统",
-          "url": "https://resume.skyrisai.com:34651/api/auth/oidc/login",
+          "name": "HR招聘系统",
+          "url": "https://resume.skyrisai.com:34651",
           "description": "内部招聘管理",
           "icon": "https://resume.skyrisai.com:34651/skyris-hr-logo.png"
         },
