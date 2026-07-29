@@ -16,16 +16,16 @@ export const mockData = {
         {
           "id": "recruit",
           "name": "招聘系统",
-          "url": "https://resume.skyrisai.com:34652/",
+          "url": "https://resume.skyrisai.com:34651/api/auth/oidc/login",
           "description": "内部招聘管理",
-          "icon": "📋"
+          "icon": "https://resume.skyrisai.com:34651/skyris-hr-logo.png"
         },
         {
           "id": "site-1784279256005",
           "name": "SSO系统",
           "url": "https://sso.skyrisai.com/login/skyris",
           "description": "单点登录系统",
-          "icon": "https://framerusercontent.com/images/YVLNtOnoSnSoWE03O8mEd6q8.png?scale-down-to=512&width=1181&height=196"
+          "icon": "https://sso.skyrisai.com/files/uploads/branding/skyris-casdoor-logo.png"
         }
       ]
     },
