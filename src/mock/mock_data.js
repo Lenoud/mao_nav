@@ -52,7 +52,7 @@ export const mockData = {
         {
           "id": "site-1773385457319",
           "name": "禅道",
-          "url": "https://zentao.skyrisai.com:8080/zentao",
+          "url": "https://zentaoint.skyrisai.com:28080/zentao",
           "description": "项目管理",
           "icon": "https://zentao.skyrisai.com:8080/zentao/favicon.ico"
         },
