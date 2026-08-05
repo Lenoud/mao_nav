@@ -90,6 +90,13 @@ export const mockData = {
           "url": "https://gptimage.skyrisai.com/",
           "description": "AI 图像生成工具",
           "icon": "https://gptimage.skyrisai.com/pwa-icon.svg"
+        },
+        {
+          "id": "site-1785916524267",
+          "name": "supabase",
+          "url": "https://supabase.skyrisai.com",
+          "description": "supabase开发服务",
+          "icon": "https://supabase.skyrisai.com/img/supabase-logo.svg"
         }
       ]
     },
