@@ -156,6 +156,13 @@ export const mockData = {
           "icon": "https://downloads.immortalwrt.org/favicon.ico"
         },
         {
+          "id": "site-1786501729353",
+          "name": "argocd",
+          "url": "https://argocd.skyrisai.com/",
+          "description": "CICD 工具",
+          "icon": "https://argocd.skyrisai.com/assets/images/logo.png"
+        },
+        {
           "id": "site-1780371147069",
           "name": "Portainer",
           "url": "https://docker.skyrisai.com",
