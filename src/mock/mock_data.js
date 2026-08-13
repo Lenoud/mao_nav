@@ -90,6 +90,13 @@ export const mockData = {
           "url": "https://supabase.skyrisai.com",
           "description": "supabase开发服务",
           "icon": "https://supabase.skyrisai.com/img/supabase-logo.svg"
+        },
+        {
+          "id": "site-1786589002723",
+          "name": "argocd",
+          "url": "https://argocd.skyrisai.com/",
+          "description": "cicd 平台",
+          "icon": "https://argocd.skyrisai.com/assets/images/logo.png"
         }
       ]
     },
@@ -156,13 +163,6 @@ export const mockData = {
           "icon": "https://downloads.immortalwrt.org/favicon.ico"
         },
         {
-          "id": "site-1786501729353",
-          "name": "argocd",
-          "url": "https://argocd.skyrisai.com/",
-          "description": "CICD 工具",
-          "icon": "https://argocd.skyrisai.com/assets/images/logo.png"
-        },
-        {
           "id": "site-1780371147069",
           "name": "Portainer",
           "url": "https://docker.skyrisai.com",
@@ -224,6 +224,13 @@ export const mockData = {
           "url": "https://prometheus.skyrisai.com",
           "description": "监控时序数据库",
           "icon": "https://prometheus.io/_next/static/media/prometheus-logo.7aa022e5.svg"
+        },
+        {
+          "id": "site-1786589100807",
+          "name": "Kubernetes",
+          "url": "https://k8sheadlamp.skyrisai.com/",
+          "description": "k8s 仪表盘",
+          "icon": "\thttps://ts4.tc.mm.bing.net/th/id/ODF.MWL5tg8gojZQeYAL1SzeHQ?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
         }
       ]
     },
