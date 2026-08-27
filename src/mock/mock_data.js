@@ -32,7 +32,7 @@ export const mockData = {
           "name": "禅道",
           "url": "https://zentaoint.skyrisai.com:28080",
           "description": "项目管理",
-          "icon": "https://static.zentao.net/web/data/upload/zentao/202602/f_0fb14b49a767b8c49e772db43b02c0f9.webp"
+          "icon": "data:image/png;base64,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"
         }
       ]
     },
@@ -111,7 +111,7 @@ export const mockData = {
           "name": "GitLab",
           "url": "https://git.skyrisai.com",
           "description": "代码托管平台",
-          "icon": "https://cdn.cookielaw.org/logos/aa14a5c8-79e3-442a-8177-464ad850b19d/e46c1d0d-1f66-481f-bc06-5427671431da/253e6fee-c4c0-4b60-bc35-79cdae5dda32/gitlab-logo-100.png"
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAYFBMVEUAAADiQyriQyjfQCjiQyjiQij/gADiQin4Uw3jQSneQCbkRyriQyjqUCb7bCbuVifzXibyWyjyXCbzWif5mSb2dSfvUCD1YSb8oib2hCbuZiL0hybxfCbweSfwcSPweSjmCvDDAAAAIHRSTlMAMf4giXACyQtJFRW0cP7/tyySR/z/ENb//w/WjkcSaXdrqYkAAADmSURBVHgBfdAFDsNAEANAxw0zluH/v+wql4NsYQRHjlcKVlGEHX0XkQcoB9InYjKBkpAxNinJDEpGModRUJTYqSgKGDVFoieIOgjrGRkFKxe2B6vkKgnCTPQEWxvRqBGoaUTmJxix5+/stJ8qNPyrQdu2HX/o5FECYUQ924BNqHcbMKjYextQJV1roVcJ9d5jaD1dLwZgbL3Ofm6NEH2Y2L/3EGGHMmIztc48L601wTmezNVyFhezP+Vw7JjLeTWbemWQ+vNmXsJ663o7O7crvrlvFfMdPzzWxPzAT8+b1D/xz+uFvTeXVhe3WIiAaQAAAABJRU5ErkJggg=="
         }
       ]
     },
@@ -205,7 +205,7 @@ export const mockData = {
           "name": "JumpServer",
           "url": "https://jumpserver.skyrisai.com/",
           "description": "堡垒机服务",
-          "icon": "\thttps://www.jumpserver.com/upload/jumpserver-wordmark.svg"
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEVHcEwHFBUPqZgMsKMOr58OmIoLqpsUs6APqpkQq5gVs5karZMSsqISspgVsZcTt5kVs5gQoooVemwXsZcVtZoXgXcVuJkWt5EUsZoXtZcZinMVtJcIKikXeW4Ro4kWy7Q9YC/bAAAAIHRSTlMACTlRRRMwCCYcppJb1v//yXcshLge8v9r4lLsHDuql+1xsgYAAAGJSURBVHgBdZLrloMgDIQjBORmQLECYnff/y03rfacvXTzM18mzOQAP2uA/2oQUqJ6jzTqEYzEN2qD2qLzFnQQv7AS2go/UUyz4u3Ld4RBypyIKMa4hkEJvF1oNHq5iZW4Nudi2RwqI8TpTEhcYKhTJGoW9rWUngUbe0KNPmUD1ve45QWOzGOt2uVci1MsUxhAphhbVWBcp3TlFerRLU7AOHc2dOexDwnjE+IBQ27sMx8HT1H8ZNWgTqmt/g7HyuLWCs9snwfsTl5Rcm8BILRYCsPVwM2X7QVrJ0qnOPY6wM4L2v2ERnniiHkEzPWAxW2cNFyGhLG4Mk77841WCnmz6BOqOQUlJyr9Y/aJURLjPM0vQ9S9tnnjs7KlqSp0RBdUYiLi1uI4ZM/G5EZxMidELXmSHKo9Z7Q1EUV3t/o6vDGPDl/dmuAYpTBYKU6pRa20bxzHrYxavg1CaniVQKPk2onR5vTvX6YQlapT74nTY7Dws6zE0YYwAgb97t8+uiacG/9ilEGqb40vfwgZPJVDfkAAAAAASUVORK5CYII="
         },
         {
           "id": "site-1786589100807",
@@ -255,7 +255,7 @@ export const mockData = {
           "name": "Grafana",
           "url": "https://grafana.skyrisai.com",
           "description": "告警仪表盘",
-          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACHUlEQVR4AX3MM6BtVxRA0bHOuc+xXcW2bdtV2MW2bdu2bdu2bTxe7BWj+sUo5wwAAPh58zkAFsJ5OBenwYRXvA4AYhzxZDgDG+FD7IYXMD2+wPsQvwdQYQUsiRbGsCHmQxdgDN9jUpyBXf4/6MNtWB4ALTyN+/EJ+rEIVsNL2Ag//jVIIZyPLQHDOBKn4SfQ4XeVbgvjKNyj6Yi/Bt1IawtXCX2Kc4zZXp+mbtNIy0iTCm9FwxP5ixk0HPK7/QJ+2X5OWFS6Bx3FqmpP/25uxRk6pkUIk6jco7aLMYuptePX/ecQPVmXwWoP6Qg8r1gxBnIwR+NCHR1th6CltsnvDhRuUeyrmDwGj5mrzrHcWXEAxseDWE2YQLpcsYvwmnbS0dATZwmbCCtF7akYPH7OpRXXYgrAG6pcIZvxazScp8qTZTylTtoBO+BkbIarYvCkOWZSO0lYGQ00VbbVdom0stpav3tSejV/Kq/GhNVJ0o7CmdETO8XQWXMiJ1HFampbCivgnaht0xkeezRK99QRMXm288NqwpgzO67CDPgEawaM3DSXHCwws9oNmEP4LCoXqzwgDCoW0rF9ppmkK3VcliUeCYCRW+eEbsWNWB0ATbTQh5Au1c6dhR/6NnhdAIzePTt0q9yAVaWXpU+F6YTpMQW+lFbEG6bq1jv3S/8bPDQbTfRYCZNJj4ryjRIDqlhYlcfhZe3YSqXZu8yb4Dc5M9T5Lt4jkAAAAABJRU5ErkJggg=="
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA21BMVEVHcEzwdRbqRB7wdhbrTxz4sw/qRx7qRh7rURztYRnqRB7rTx3pQx/rTh3sVBzqRx74uA/1oBHqRB7zihT0kxL0mhLyhxTpQx/mShLwdhbuZRnsVBztWhvtWhv2qhDpQx/0mRL2pxD1oRHyhxT0mRLzjhPwdhbteBTxexbxhBXwdxbqSB7uYxn3sBD5wA75vw/pQx/2pw/5vw/vbRj0nBLxgRXpQx/2qxD2pBHsVBzyiBTwehbxgRXzjhT3shD0nBLrTR3wdBfvbRjsWhv0lRPuZxntYBrqRx74uQ+KvehtAAAANnRSTlMAq+1SDtOGVCAVal6wRi/YZEya4COYHcsB0u2tcJ+j48jnznbvykcDumUtNcmGsLD5Bynz/pXhLF8RAAABT0lEQVQokXWRaXOCMBCGV0URUPCWetTbevW2aSkqKpX6/39Rd5OQgc74fGDezZPJZgNAilIBbtJmrHbL6QwxbrgBSdY2LYcV1Wq5UKqZ+gtLoHrrydVsNi3LsRhYGtXrGu5xpSxKZ6o+hsPacRYn6amBVWn+InJAzRYXdbLxviPCm6wdil1srR3lNLbneV0KlicpA/R7QvbCMKQWRhgWNLC7WNpQ7Au5iaKIDulHFpVuL4o6OCGf5ELQhJ2OvMPmcsnx8HDm0Hu/Z6TMnc8iZk6cOcbFnZSr00lEX0A7V744DOa+L6RR33Ho3Nxuscy0AD6wFvvcyTdR5xdYTtC5fCF+odYemamHnVG5b8Rl9QeZVnlu1DEPm8oB3AfEdthsjoNtEEyTfwjGX0lGryk5+kwCafKHwyH/SF8K/2Qlfy+uU7ler5W0c10V356f4vgHHgg/W8UCfb4AAAAASUVORK5CYII="
         },
         {
           "id": "site-1784093914556",
