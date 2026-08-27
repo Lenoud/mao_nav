@@ -43,13 +43,6 @@ export const mockData = {
           "icon": "https://cdn.cookielaw.org/logos/aa14a5c8-79e3-442a-8177-464ad850b19d/e46c1d0d-1f66-481f-bc06-5427671431da/253e6fee-c4c0-4b60-bc35-79cdae5dda32/gitlab-logo-100.png"
         },
         {
-          "id": "harbor",
-          "name": "Harbor",
-          "url": "https://harbor.skyrisai.com",
-          "description": "容器镜像仓库",
-          "icon": "https://goharbor.io/favicon.svg"
-        },
-        {
           "id": "site-1773385457319",
           "name": "禅道",
           "url": "https://zentaoint.skyrisai.com:28080",
@@ -64,97 +57,20 @@ export const mockData = {
           "icon": "https://obsidian.md/images/obsidian-logo-gradient.svg"
         },
         {
-          "id": "site-1779853295401",
-          "name": "DrawAI",
-          "url": "https://draw.skyrisai.com",
-          "description": "ai画图工具",
-          "icon": "https://draw.skyrisai.com/favicon.ico"
-        },
-        {
-          "id": "site-1780293828024",
-          "name": "Git Review Manager",
-          "url": "http://review.skyrisai.com",
-          "description": "gitlab代码审阅管理平台",
-          "icon": "https://review.skyrisai.com/favicon.ico"
-        },
-        {
-          "id": "site-1782797592964",
-          "name": "GPT Image",
-          "url": "https://gptimage.skyrisai.com/",
-          "description": "AI 图像生成工具",
-          "icon": "https://gptimage.skyrisai.com/pwa-icon.svg"
-        },
-        {
           "id": "site-1785916524267",
           "name": "supabase",
           "url": "https://supabase.skyrisai.com",
           "description": "supabase开发服务",
           "icon": "https://supabase.skyrisai.com/img/supabase-logo.svg"
-        },
-        {
-          "id": "site-1786589002723",
-          "name": "argocd",
-          "url": "https://argocd.skyrisai.com/",
-          "description": "cicd 平台",
-          "icon": "https://argocd.skyrisai.com/assets/images/logo.png"
         }
       ]
     },
     {
       "id": "infra",
-      "name": "基础设施",
+      "name": "基础设施服务",
       "icon": "🏗️",
       "order": 2,
       "sites": [
-        {
-          "id": "pve1",
-          "name": "PVE 1",
-          "url": "https://pve1.skyrisai.com",
-          "description": "Proxmox虚拟化节点1",
-          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABIFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1NTWysrLh4eHAwMBeXl4CAgLGxsb///+VlZUUFBTZ2dmHh4cEAgBpMwCsVADAXgCRRwApFAAfHx/l5eVzc3NrNADlcADfbQBWKgAsLCzv7+/+/v5fX18rKysDAQCdTQDjbwBKJAA8PDz29vb7+/s5OTkHBACtVQA5HABOTk78/PxISEgNBwC8XADYagArFQBiYmJWVlYWCwDHYgDPZQAfDwB3d3dlZWUgEADRZgDFYAAUCgCFhYVycnItFgDZagC4WgAMBgCDg4N5eXk8HQDgbQCpUwAFAwCqUwC5WgDGYQAVCgA9HgDkcABPJwBsNQDhbgBcLQBvNgC0WACaSwAxGABaD2HEAAAACnRSTlMAF0x6gCXB/132sRgSBQAAAYVJREFUeAF0TYURwzAMNCRVGcPMTPtPVysuw5ueTiYzKOPKBzij5A51AT+xUGW+XMEfrJaYq5j/a+AMOX+92e72d3+/227W8hdC6EwOx5PAWeZn5MfDzClh0rxo6OpIdWTaRfqMcDBMy3Zcz0c/AAjw9T3XsS3TAE4UCCOBOEkzEeRFkYsnK5MY3RAUUahq5E3b9SIaBnH1Y9ugV1dzAaYrW1RtBDEQxMKNr5M3MzOz+y/lR2Y6hiVJ3BKDF0S2NFHiF3/uR6sByQruqqavBoam4q7ItBuQaeHFdlz8e46Nm2XSaUB+gLcwihlLohDnwKerAaUZXvOirIocpyyluwHVDd7brmuxNzV9G/Rd138brCmGoiqL4SvFWuQ4JYzF0/gucoUZOB5guk7whLkSlaXGSpS+5luJOqluZmmnWpibK9WrWP+FR+gjIksnIhwpsiJB7KhodeToVo6OAolGsrOAEkxMrG1cPHqCiY+zjY0BJhiCSY5goiWU7AlmHIJZj3DmJZj9ATGDVYd8dD0PAAAAAElFTkSuQmCC"
-        },
-        {
-          "id": "pve2",
-          "name": "PVE 2",
-          "url": "https://pve2.skyrisai.com",
-          "description": "Proxmox虚拟化节点2",
-          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABIFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1NTWysrLh4eHAwMBeXl4CAgLGxsb///+VlZUUFBTZ2dmHh4cEAgBpMwCsVADAXgCRRwApFAAfHx/l5eVzc3NrNADlcADfbQBWKgAsLCzv7+/+/v5fX18rKysDAQCdTQDjbwBKJAA8PDz29vb7+/s5OTkHBACtVQA5HABOTk78/PxISEgNBwC8XADYagArFQBiYmJWVlYWCwDHYgDPZQAfDwB3d3dlZWUgEADRZgDFYAAUCgCFhYVycnItFgDZagC4WgAMBgCDg4N5eXk8HQDgbQCpUwAFAwCqUwC5WgDGYQAVCgA9HgDkcABPJwBsNQDhbgBcLQBvNgC0WACaSwAxGABaD2HEAAAACnRSTlMAF0x6gCXB/132sRgSBQAAAYVJREFUeAF0TYURwzAMNCRVGcPMTPtPVysuw5ueTiYzKOPKBzij5A51AT+xUGW+XMEfrJaYq5j/a+AMOX+92e72d3+/227W8hdC6EwOx5PAWeZn5MfDzClh0rxo6OpIdWTaRfqMcDBMy3Zcz0c/AAjw9T3XsS3TAE4UCCOBOEkzEeRFkYsnK5MY3RAUUahq5E3b9SIaBnH1Y9ugV1dzAaYrW1RtBDEQxMKNr5M3MzOz+y/lR2Y6hiVJ3BKDF0S2NFHiF3/uR6sByQruqqavBoam4q7ItBuQaeHFdlz8e46Nm2XSaUB+gLcwihlLohDnwKerAaUZXvOirIocpyyluwHVDd7brmuxNzV9G/Rd138brCmGoiqL4SvFWuQ4JYzF0/gucoUZOB5guk7whLkSlaXGSpS+5luJOqluZmmnWpibK9WrWP+FR+gjIksnIhwpsiJB7KhodeToVo6OAolGsrOAEkxMrG1cPHqCiY+zjY0BJhiCSY5goiWU7AlmHIJZj3DmJZj9ATGDVYd8dD0PAAAAAElFTkSuQmCC"
-        },
-        {
-          "id": "pve3",
-          "name": "PVE 3",
-          "url": "https://pve3.skyrisai.com",
-          "description": "Proxmox虚拟化节点3",
-          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABIFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1NTWysrLh4eHAwMBeXl4CAgLGxsb///+VlZUUFBTZ2dmHh4cEAgBpMwCsVADAXgCRRwApFAAfHx/l5eVzc3NrNADlcADfbQBWKgAsLCzv7+/+/v5fX18rKysDAQCdTQDjbwBKJAA8PDz29vb7+/s5OTkHBACtVQA5HABOTk78/PxISEgNBwC8XADYagArFQBiYmJWVlYWCwDHYgDPZQAfDwB3d3dlZWUgEADRZgDFYAAUCgCFhYVycnItFgDZagC4WgAMBgCDg4N5eXk8HQDgbQCpUwAFAwCqUwC5WgDGYQAVCgA9HgDkcABPJwBsNQDhbgBcLQBvNgC0WACaSwAxGABaD2HEAAAACnRSTlMAF0x6gCXB/132sRgSBQAAAYVJREFUeAF0TYURwzAMNCRVGcPMTPtPVysuw5ueTiYzKOPKBzij5A51AT+xUGW+XMEfrJaYq5j/a+AMOX+92e72d3+/227W8hdC6EwOx5PAWeZn5MfDzClh0rxo6OpIdWTaRfqMcDBMy3Zcz0c/AAjw9T3XsS3TAE4UCCOBOEkzEeRFkYsnK5MY3RAUUahq5E3b9SIaBnH1Y9ugV1dzAaYrW1RtBDEQxMKNr5M3MzOz+y/lR2Y6hiVJ3BKDF0S2NFHiF3/uR6sByQruqqavBoam4q7ItBuQaeHFdlz8e46Nm2XSaUB+gLcwihlLohDnwKerAaUZXvOirIocpyyluwHVDd7brmuxNzV9G/Rd138brCmGoiqL4SvFWuQ4JYzF0/gucoUZOB5guk7whLkSlaXGSpS+5luJOqluZmmnWpibK9WrWP+FR+gjIksnIhwpsiJB7KhodeToVo6OAolGsrOAEkxMrG1cPHqCiY+zjY0BJhiCSY5goiWU7AlmHIJZj3DmJZj9ATGDVYd8dD0PAAAAAElFTkSuQmCC"
-        },
-        {
-          "id": "site-1786501667491",
-          "name": "JumpServer",
-          "url": "https://jumpserver.skyrisai.com/",
-          "description": "堡垒机服务",
-          "icon": "\thttps://www.jumpserver.com/upload/jumpserver-wordmark.svg"
-        },
-        {
-          "id": "minio1",
-          "name": "MinIO 1",
-          "url": "https://minio1.skyrisai.com",
-          "description": "华为服务器对象存储节点",
-          "icon": "https://min-io.cn/resources/img/logo.svg"
-        },
-        {
-          "id": "minio2",
-          "name": "MinIO 2",
-          "url": "https://minio2.skyrisai.com",
-          "description": "NAS 对象存储节点",
-          "icon": "https://min-io.cn/resources/img/logo.svg"
-        },
-        {
-          "id": "fnos",
-          "name": "FNOS",
-          "url": "https://web.skyrisai.com:5667",
-          "description": "NAS网络存储",
-          "icon": "https://www.fnnas.com/favicon.ico"
-        },
         {
           "id": "site-1774853270731",
           "name": "路由系统",
@@ -163,39 +79,11 @@ export const mockData = {
           "icon": "https://downloads.immortalwrt.org/favicon.ico"
         },
         {
-          "id": "site-1780371147069",
-          "name": "Portainer",
-          "url": "https://docker.skyrisai.com",
-          "description": "docker管理面板",
-          "icon": "https://api.iconify.design/simple-icons/portainer.svg?color=%2313BEF9"
-        },
-        {
-          "id": "site-1780372800143",
-          "name": "Sub2API",
-          "url": "https://sub2api.skyrisai.com",
-          "description": "统一api管理",
-          "icon": "https://sub2api.skyrisai.com/logo.png"
-        },
-        {
-          "id": "site-1780891195573",
-          "name": "Sub2API Dashboard",
-          "url": "https://sub2api-dash.skyrisai.com/",
-          "description": "sub2api 用量仪表盘",
-          "icon": "https://api.iconify.design/mdi/chart-line.svg?color=%23F59E0B"
-        },
-        {
           "id": "site-1781262232357",
           "name": "HookHub",
           "url": "https://webhook-xnldrpuk-1.skyrisai.com/admin",
           "description": "hook管理",
           "icon": "https://api.iconify.design/mdi/webhook.svg?color=%23E11D48"
-        },
-        {
-          "id": "site-1781779691077",
-          "name": "AList",
-          "url": "https://alist.skyrisai.com/",
-          "description": "网盘文件管理",
-          "icon": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"
         },
         {
           "id": "site-1783409342552",
@@ -318,6 +206,157 @@ export const mockData = {
           "icon": "https://git.skyrisai.com/favicon.ico"
         }
       ]
+    },
+    {
+      "id": "category-1787823892318",
+      "icon": "☁️",
+      "name": "AI 平台服务",
+      "order": 0,
+      "sites": [
+        {
+          "id": "site-1780891195573",
+          "name": "Sub2API Dashboard",
+          "url": "https://sub2api-dash.skyrisai.com/",
+          "description": "sub2api 用量仪表盘",
+          "icon": "https://api.iconify.design/mdi/chart-line.svg?color=%23F59E0B"
+        },
+        {
+          "id": "site-1780372800143",
+          "name": "Sub2API",
+          "url": "https://sub2api.skyrisai.com",
+          "description": "统一api管理",
+          "icon": "https://github.com/Wei-Shaw/sub2api/raw/main/assets/logo.svg"
+        },
+        {
+          "id": "site-1780293828024",
+          "name": "Git Review Manager",
+          "url": "http://review.skyrisai.com",
+          "description": "gitlab代码审阅管理平台",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEX///+OmqNxgItzg42utrxWangAM0sAHDsAID2MmKEkRlkAHTv19/jQ1dno6+0AFzgAEjVdcX7a3uGVoal/jZfFy887VWbV2t0ANkwPPFJFXWxOZXSgq7KEkZs0UGFpeoXo8stUAAAAdUlEQVR4Ac2QQwLEABRDU9v2/U85RpVuyrf9CHBJBFH6IsrjoaJqH3TVmAxNfLEWhvbmQ9tx6VDwPD8gQ8cKwkgkQ0F3uWas23y4eJlYkisLZAjJ87yUDREmGdiQF58XX1QDRlqWpYgvcaV8qWo0bZq2Ha7IHYsfB3MzPFfmAAAAAElFTkSuQmCC"
+        },
+        {
+          "id": "site-1782797592964",
+          "name": "GPT Image",
+          "url": "https://gptimage.skyrisai.com/",
+          "description": "AI 图像生成工具",
+          "icon": "https://gptimage.skyrisai.com/pwa-icon.svg"
+        },
+        {
+          "id": "site-1779853295401",
+          "name": "DrawAI",
+          "url": "https://draw.skyrisai.com",
+          "description": "ai画图工具",
+          "icon": "https://draw.skyrisai.com/favicon.ico"
+        }
+      ]
+    },
+    {
+      "id": "category-1787823904941",
+      "icon": "📁",
+      "name": "存储服务",
+      "order": 5,
+      "sites": [
+        {
+          "id": "minio1",
+          "name": "MinIO 1",
+          "url": "https://minio1.skyrisai.com",
+          "description": "华为服务器对象存储节点",
+          "icon": "https://min-io.cn/resources/img/logo.svg"
+        },
+        {
+          "id": "minio2",
+          "name": "MinIO 2",
+          "url": "https://minio2.skyrisai.com",
+          "description": "NAS 对象存储节点",
+          "icon": "https://min-io.cn/resources/img/logo.svg"
+        },
+        {
+          "id": "fnos",
+          "name": "FNOS",
+          "url": "https://web.skyrisai.com:5667",
+          "description": "NAS网络存储",
+          "icon": "https://www.fnnas.com/favicon.ico"
+        },
+        {
+          "id": "site-1781779691077",
+          "name": "AList",
+          "url": "https://alist.skyrisai.com/",
+          "description": "网盘文件管理",
+          "icon": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"
+        }
+      ]
+    },
+    {
+      "id": "category-1787823924312",
+      "icon": "🛠️",
+      "name": "代码构建发布服务",
+      "order": 6,
+      "sites": [
+        {
+          "id": "harbor",
+          "name": "Harbor",
+          "url": "https://harbor.skyrisai.com",
+          "description": "容器镜像仓库",
+          "icon": "https://goharbor.io/favicon.svg"
+        },
+        {
+          "id": "site-1786589002723",
+          "name": "argocd",
+          "url": "https://argocd.skyrisai.com/",
+          "description": "cicd 平台",
+          "icon": "https://argocd.skyrisai.com/assets/images/logo.png"
+        },
+        {
+          "id": "site-1787824131200",
+          "name": "Jenkins",
+          "url": "https://jenkins.skyrisai.com/",
+          "description": "Jenkins 代码构建平台",
+          "icon": "https://www.jenkins.io/images/logos/jenkins/jenkins.svg"
+        }
+      ]
+    },
+    {
+      "id": "category-1787823981646",
+      "icon": "💻",
+      "name": "Server 服务",
+      "order": 7,
+      "sites": [
+        {
+          "id": "pve1",
+          "name": "PVE 1",
+          "url": "https://pve1.skyrisai.com",
+          "description": "Proxmox虚拟化节点1",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABIFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1NTWysrLh4eHAwMBeXl4CAgLGxsb///+VlZUUFBTZ2dmHh4cEAgBpMwCsVADAXgCRRwApFAAfHx/l5eVzc3NrNADlcADfbQBWKgAsLCzv7+/+/v5fX18rKysDAQCdTQDjbwBKJAA8PDz29vb7+/s5OTkHBACtVQA5HABOTk78/PxISEgNBwC8XADYagArFQBiYmJWVlYWCwDHYgDPZQAfDwB3d3dlZWUgEADRZgDFYAAUCgCFhYVycnItFgDZagC4WgAMBgCDg4N5eXk8HQDgbQCpUwAFAwCqUwC5WgDGYQAVCgA9HgDkcABPJwBsNQDhbgBcLQBvNgC0WACaSwAxGABaD2HEAAAACnRSTlMAF0x6gCXB/132sRgSBQAAAYVJREFUeAF0TYURwzAMNCRVGcPMTPtPVysuw5ueTiYzKOPKBzij5A51AT+xUGW+XMEfrJaYq5j/a+AMOX+92e72d3+/227W8hdC6EwOx5PAWeZn5MfDzClh0rxo6OpIdWTaRfqMcDBMy3Zcz0c/AAjw9T3XsS3TAE4UCCOBOEkzEeRFkYsnK5MY3RAUUahq5E3b9SIaBnH1Y9ugV1dzAaYrW1RtBDEQxMKNr5M3MzOz+y/lR2Y6hiVJ3BKDF0S2NFHiF3/uR6sByQruqqavBoam4q7ItBuQaeHFdlz8e46Nm2XSaUB+gLcwihlLohDnwKerAaUZXvOirIocpyyluwHVDd7brmuxNzV9G/Rd138brCmGoiqL4SvFWuQ4JYzF0/gucoUZOB5guk7whLkSlaXGSpS+5luJOqluZmmnWpibK9WrWP+FR+gjIksnIhwpsiJB7KhodeToVo6OAolGsrOAEkxMrG1cPHqCiY+zjY0BJhiCSY5goiWU7AlmHIJZj3DmJZj9ATGDVYd8dD0PAAAAAElFTkSuQmCC"
+        },
+        {
+          "id": "pve2",
+          "name": "PVE 2",
+          "url": "https://pve2.skyrisai.com",
+          "description": "Proxmox虚拟化节点2",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABIFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1NTWysrLh4eHAwMBeXl4CAgLGxsb///+VlZUUFBTZ2dmHh4cEAgBpMwCsVADAXgCRRwApFAAfHx/l5eVzc3NrNADlcADfbQBWKgAsLCzv7+/+/v5fX18rKysDAQCdTQDjbwBKJAA8PDz29vb7+/s5OTkHBACtVQA5HABOTk78/PxISEgNBwC8XADYagArFQBiYmJWVlYWCwDHYgDPZQAfDwB3d3dlZWUgEADRZgDFYAAUCgCFhYVycnItFgDZagC4WgAMBgCDg4N5eXk8HQDgbQCpUwAFAwCqUwC5WgDGYQAVCgA9HgDkcABPJwBsNQDhbgBcLQBvNgC0WACaSwAxGABaD2HEAAAACnRSTlMAF0x6gCXB/132sRgSBQAAAYVJREFUeAF0TYURwzAMNCRVGcPMTPtPVysuw5ueTiYzKOPKBzij5A51AT+xUGW+XMEfrJaYq5j/a+AMOX+92e72d3+/227W8hdC6EwOx5PAWeZn5MfDzClh0rxo6OpIdWTaRfqMcDBMy3Zcz0c/AAjw9T3XsS3TAE4UCCOBOEkzEeRFkYsnK5MY3RAUUahq5E3b9SIaBnH1Y9ugV1dzAaYrW1RtBDEQxMKNr5M3MzOz+y/lR2Y6hiVJ3BKDF0S2NFHiF3/uR6sByQruqqavBoam4q7ItBuQaeHFdlz8e46Nm2XSaUB+gLcwihlLohDnwKerAaUZXvOirIocpyyluwHVDd7brmuxNzV9G/Rd138brCmGoiqL4SvFWuQ4JYzF0/gucoUZOB5guk7whLkSlaXGSpS+5luJOqluZmmnWpibK9WrWP+FR+gjIksnIhwpsiJB7KhodeToVo6OAolGsrOAEkxMrG1cPHqCiY+zjY0BJhiCSY5goiWU7AlmHIJZj3DmJZj9ATGDVYd8dD0PAAAAAElFTkSuQmCC"
+        },
+        {
+          "id": "pve3",
+          "name": "PVE 3",
+          "url": "https://pve3.skyrisai.com",
+          "description": "Proxmox虚拟化节点3",
+          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAABIFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1NTWysrLh4eHAwMBeXl4CAgLGxsb///+VlZUUFBTZ2dmHh4cEAgBpMwCsVADAXgCRRwApFAAfHx/l5eVzc3NrNADlcADfbQBWKgAsLCzv7+/+/v5fX18rKysDAQCdTQDjbwBKJAA8PDz29vb7+/s5OTkHBACtVQA5HABOTk78/PxISEgNBwC8XADYagArFQBiYmJWVlYWCwDHYgDPZQAfDwB3d3dlZWUgEADRZgDFYAAUCgCFhYVycnItFgDZagC4WgAMBgCDg4N5eXk8HQDgbQCpUwAFAwCqUwC5WgDGYQAVCgA9HgDkcABPJwBsNQDhbgBcLQBvNgC0WACaSwAxGABaD2HEAAAACnRSTlMAF0x6gCXB/132sRgSBQAAAYVJREFUeAF0TYURwzAMNCRVGcPMTPtPVysuw5ueTiYzKOPKBzij5A51AT+xUGW+XMEfrJaYq5j/a+AMOX+92e72d3+/227W8hdC6EwOx5PAWeZn5MfDzClh0rxo6OpIdWTaRfqMcDBMy3Zcz0c/AAjw9T3XsS3TAE4UCCOBOEkzEeRFkYsnK5MY3RAUUahq5E3b9SIaBnH1Y9ugV1dzAaYrW1RtBDEQxMKNr5M3MzOz+y/lR2Y6hiVJ3BKDF0S2NFHiF3/uR6sByQruqqavBoam4q7ItBuQaeHFdlz8e46Nm2XSaUB+gLcwihlLohDnwKerAaUZXvOirIocpyyluwHVDd7brmuxNzV9G/Rd138brCmGoiqL4SvFWuQ4JYzF0/gucoUZOB5guk7whLkSlaXGSpS+5luJOqluZmmnWpibK9WrWP+FR+gjIksnIhwpsiJB7KhodeToVo6OAolGsrOAEkxMrG1cPHqCiY+zjY0BJhiCSY5goiWU7AlmHIJZj3DmJZj9ATGDVYd8dD0PAAAAAElFTkSuQmCC"
+        },
+        {
+          "id": "site-1786501667491",
+          "name": "JumpServer",
+          "url": "https://jumpserver.skyrisai.com/",
+          "description": "堡垒机服务",
+          "icon": "\thttps://www.jumpserver.com/upload/jumpserver-wordmark.svg"
+        }
+      ]
+    },
+    {
+      "id": "category-1787824046244",
+      "icon": "📊",
+      "name": "服务监控",
+      "order": 0,
+      "sites": []
     }
   ],
   "title": "Skyris 内部导航",
