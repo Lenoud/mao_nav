@@ -57,20 +57,6 @@ export const mockData = {
           "icon": "https://github.com/Wei-Shaw/sub2api/raw/main/assets/logo.svg"
         },
         {
-          "id": "site-1780293828024",
-          "name": "AI Git Review",
-          "url": "http://review.skyrisai.com",
-          "description": "gitlab代码审阅管理平台",
-          "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAYFBMVEX///+OmqNxgItzg42utrxWangAM0sAHDsAID2MmKEkRlkAHTv19/jQ1dno6+0AFzgAEjVdcX7a3uGVoal/jZfFy887VWbV2t0ANkwPPFJFXWxOZXSgq7KEkZs0UGFpeoXo8stUAAAAdUlEQVR4Ac2QQwLEABRDU9v2/U85RpVuyrf9CHBJBFH6IsrjoaJqH3TVmAxNfLEWhvbmQ9tx6VDwPD8gQ8cKwkgkQ0F3uWas23y4eJlYkisLZAjJ87yUDREmGdiQF58XX1QDRlqWpYgvcaV8qWo0bZq2Ha7IHYsfB3MzPFfmAAAAAElFTkSuQmCC"
-        },
-        {
-          "id": "site-1782797592964",
-          "name": "GPT 图片生成",
-          "url": "https://gptimage.skyrisai.com",
-          "description": "GPT专用图片生成工具",
-          "icon": "https://gptimage.skyrisai.com/pwa-icon.svg"
-        },
-        {
           "id": "site-1779853295401",
           "name": "DrawAI",
           "url": "https://draw.skyrisai.com",
@@ -213,6 +199,13 @@ export const mockData = {
           "url": "https://k8sheadlamp.skyrisai.com/",
           "description": "k8s 仪表盘",
           "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAVFBMVEVHcEz///////////////////////////////////////8ybeb+//8bY+Uua+YmZ+X1+P7Q3PlGeugGW+SKp/Do7vzA0PdeieuuwvTd5vtxlu2btPKZXBOhAAAAC3RSTlMAoQpjPtjvhSXEt67vDPIAAAGRSURBVCiRbZKJcqQwDESB4RjGkuX7gP//z7QYNptJpau49GypZTQMP/Tctufwt+YXeU/jX3jeqQXmWuj1G88LNcMW4lBof34gdwIZGwJuF55vNO1vZAyXJngAN3q94ZhFFCHYEt9vJm8XXE4xoulM9aVa7MXF5341RwiUyraRyp3Mxym2rpO6IWsludSp1OyrJ48PMZbU8tbZGAlENcbsY0xEAam5PwB3dSgIuRpdj4fDMriSNgKux7XOB0eFXKEcctFcx6J+0LhhSjFkwq5uY6MIx4Gm4ZHVu6XDHJ1Q2leUwE4jeR5G5BAO1LWPU9txmQyj07INSxI5XSfXknrJNTVHPiOa9mHFidUamxM+qHQKyNJiDZbTMmwu4BCscT56MhWgO6P/Ljg0uvSr/EGezhgLKmhvaG68zrZEpdVRbw3Fq7JYlvevplP3Rt9KzqV1Xcrnde7QQxNJypGhCKNa5HtSRpiSdJVCPMnbzD/tma1cDFQs32Nwj9Fa+IfK/jGaT8r+W339nNtp2v7rcRsdvgDXqyNs6sUXHAAAAABJRU5ErkJggg=="
+        },
+        {
+          "id": "site-1791877764810",
+          "name": "kubepi",
+          "url": "https://k8skubepi.skyrisai.com/",
+          "description": "另一套k8s 仪表盘",
+          "icon": "https://kubepi.org/images/kubepi-logo.png"
         },
         {
           "id": "pve1",
